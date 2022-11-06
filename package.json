@@ -6,8 +6,9 @@
   "author": "catgrandfa <catgrandfa9898@outlook.com>",
   "license": "MIT",
   "scripts": {
-    "start": "webpack serve --mode=development --config ./webpack-config/webpack.config.js",
-    "build": "webpack --mode=production --config ./webpack-config/webpack.config.js"
+    "start": "webpack serve --mode=development --config ./webpack-config/webpack.base.config.js",
+    "build": "webpack --mode=production --config ./webpack-config/webpack.base.config.js",
+    "ts:init": "tsc --init"
   },
   "devDependencies": {
     "@babel/core": "^7.19.6",
